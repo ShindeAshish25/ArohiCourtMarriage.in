@@ -101,7 +101,7 @@ img {
     transform: translate(0, -50%);
 }
 
-.carousel h1{
+.carousel h1 {
     font-size: 56px;
 }
 
@@ -111,11 +111,14 @@ img {
 .document1 {
     padding: 50px 100px;
 }
-@media (min-width: 992px){
+
+@media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 0;
         padding-left: 0;
-    }}
+    }
+}
+
 /* // for line of nav bar//*/
 
 .carousel .btn {
@@ -133,7 +136,8 @@ img {
     box-shadow: 5px 5px 7px red;
     margin-top: 30px;
 }
-.font-size-car{
+
+.font-size-car {
     font-size: 22px;
 }
 
@@ -166,8 +170,8 @@ img {
     border-radius: 50px;
     margin: 60px;
     box-shadow: 7px 7px 15px rgb(138, 138, 138);
-    background: linear-gradient(30deg, #cecece 0%,  #ffffff 100%);
- /* background: url(../img/orignal-background.jpg); */
+    background: linear-gradient(30deg, #cecece 0%, #ffffff 100%);
+    /* background: url(../img/orignal-background.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     /* background-color: black; */
@@ -207,7 +211,7 @@ img {
     margin: 60px;
     box-shadow: 7px 7px 15px rgb(138, 138, 138);
     /* background: url(../img/orignal-background.jpg); */
-    background: linear-gradient(30deg, #cecece 0%,  #ffffff 100%);
+    background: linear-gradient(30deg, #cecece 0%, #ffffff 100%);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -495,7 +499,7 @@ img {
     visibility: hidden;
     opacity: 0;
     height: 10px;
-    transition: transform .2s; 
+    transition: transform .2s;
     transition: all ease-in-out 0.3s;
 }
 
@@ -503,7 +507,7 @@ img {
     visibility: visible;
     opacity: 1;
     height: 300%;
-    transition: 1s linear; 
+    transition: 1s linear;
     transition: all ease-in-out 0.3s;
 }
 
@@ -513,6 +517,15 @@ img {
     transition: all ease-in-out 0.3s;
 }
 
+.phno a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-media i {
+    font-size: 35px;
+    margin-right: 40px;
+}
 
 /* responsive code start here */
 
@@ -528,7 +541,7 @@ img {
     .contactus {
         padding: 10px 20px;
     }
-   
+
     /* .nav-menu .navbar-nav .nav-link {
         background-color: rgb(43, 43, 43);
         text-align: center;
@@ -538,7 +551,8 @@ img {
     } */
     .nav-menu .navbar-brand {
         border-radius: 0px 0px 20px 20px;
-        font-size: 32px;}
+        font-size: 32px;
+    }
 
     .mail {
         font-size: 15px;
@@ -564,7 +578,7 @@ img {
         padding-right: 0;
         padding-left: 0;
     }
-   
+
 
     .contact-card {
         flex: 100%;
@@ -612,6 +626,7 @@ img {
     body {
         overflow-x: hidden;
     }
+
     .nav-menu .navbar-nav .nav-link {
         background-color: rgb(43, 43, 43);
         text-align: center;
@@ -649,10 +664,11 @@ img {
     .carousel-caption h1 {
         font-size: 30px;
     }
-    .font-size-car{
+
+    .font-size-car {
         font-size: 15px;
     }
-    
+
 
     .height100vh {
         height: 45vh;
