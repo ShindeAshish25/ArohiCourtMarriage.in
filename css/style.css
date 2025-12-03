@@ -17,6 +17,7 @@ a {
 
 body {
     overflow-x: hidden;
+    position: relative;
 }
 
 img {
@@ -355,6 +356,7 @@ img {
     background-position: top;
     background-size: 100%;
 }
+
 .contact .hero-img-gallery {
     background-image: url(../img/photo.jpg);
     /* height: 100vh; */
@@ -804,11 +806,12 @@ img {
     object-fit: contain;
 }
 
-.anchor{
+.anchor {
     text-decoration: none;
     color: #ffee00;
 }
-.anchor:hover{
+
+.anchor:hover {
     text-decoration: none;
     color: #ffffff;
 }
@@ -861,4 +864,41 @@ img {
         grid-template-columns: 1fr;
         grid-gap: 1rem;
     }
+}
+
+ .floting {
+    position: fixed;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    pointer-events: none;  /* allows clicks only on icons */
+}
+
+.floting a {
+    pointer-events: auto;
+}
+
+.floting .bxl-whatsapp {
+    position: fixed;
+    background-color: #25d366;
+    color: #ffffff;
+    bottom: 8%;
+    left: 5%;
+    font-size: 2rem;
+    z-index: 9999;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.floting .bxs-phone-call {
+    position: fixed;
+    background-color: blue;
+    color: #ffffff;
+    bottom: 8%;
+    right: 5%;
+    font-size: 2rem;
+    z-index: 9999;
+    padding: 8px;
+    border-radius: 50%;
 }
